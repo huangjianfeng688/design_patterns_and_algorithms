@@ -22,11 +22,10 @@ public class After {
 
     public static void main(String[] args) {
         Gain gain = new Gain();
-        String[] keys = new String[4];
+        String[] keys = new String[3];
         keys[0] = "contract_year";
         keys[1] = "gzbx";
-        keys[3] = "hello";
-        keys[2] = "wdxcs";
+        keys[2] = "hello";
 
         Map<String,Object> message = new HashMap();
 

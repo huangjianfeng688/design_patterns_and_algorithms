@@ -25,13 +25,21 @@ public class XmlUtil {
 
     static {
          reader = new SAXReader();
-
         Document doc = null;
         try {
             doc = reader.read(XmlUtil.class.getClassLoader().getResourceAsStream("com/huanletao/examples/Message.xml"));
         } catch (DocumentException e) {
             e.printStackTrace();
         }
+        dom4jReadXml(doc,null);
+    }
+
+    private static void dom4jReadXml(Document doc,Integer type) {
+
+        if (type==null ||type==1){
+            dom4jReadXml(doc);return;
+        }
+
         //3.获取根元素
         Element root = doc.getRootElement();
         List<Element> elements = root.elements();
@@ -43,6 +51,20 @@ public class XmlUtil {
         }
     }
 
+    private static void dom4jReadXml(Document doc) {
+        //3.获取根元素
+        Element root = doc.getRootElement();
+        List<Element> elements = root.elements();
+        for (Element element : elements) {
+            Message message = new Message();
+            String key = element.attributeValue("key");
+            String aClass = element.attributeValue("class");
+            message.setKey(key);
+            message.setZlass(aClass);
+            messages.add(message);
+        }
+
+    }
 
     public static List<Message> getMessages() {
         return messages;
