@@ -1,0 +1,27 @@
+<!--配置文件配置对应添加的key和class的值。-->
+<messages>
+    <message>
+        <key>gzbx</key>
+        <class>gzbxMessage</class>
+    </message>
+    <message>
+        <key>bgly</key>
+        <class>bglyMessage</class>
+    </message>
+    <message>
+        <key>gys</key>
+        <class>gysMessage</class>
+    </message>
+    <message>
+        <key>contract_year</key>
+        <class>contractYearMessage</class>
+    </message>
+    <message>
+        <key>hello</key>
+        <class>HelloMessage</class>
+    </message>
+    <message>
+        <key>wdxcs</key>
+        <class>WdxcsMessage</class>
+    </message>
+</messages>
