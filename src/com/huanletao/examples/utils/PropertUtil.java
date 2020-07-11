@@ -14,14 +14,21 @@ import java.util.Properties;
 public class PropertUtil {
     private static Properties prop;
 
-    //读取配置文件。
     static {
         prop = new Properties();
         try {
-            prop.load(PropertUtil.class.getClassLoader().getResourceAsStream("com/huanletao/examples/config"));
+            prop.load(PropertUtil.class.getClassLoader().getResourceAsStream("com/huanletao/examples/IntelliJ IDEA 使用技巧"));
         } catch (IOException e) {
             e.printStackTrace();
         }
 
     }
+
+    /**
+     *读取配置文件内容。
+     */
+    public static String readProperty(String key){
+        return (String) prop.get(key);
+    }
+
 }

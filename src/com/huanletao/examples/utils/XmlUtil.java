@@ -36,19 +36,20 @@ public class XmlUtil {
 
     private static void dom4jReadXml(Document doc,Integer type) {
 
-        if (type==null ||type==1){
-            dom4jReadXml(doc);return;
+        if (type != null && type == 1) {
+            //3.获取根元素
+            Element root = doc.getRootElement();
+            List<Element> elements = root.elements();
+            for (Element element : elements) {
+                Message message = new Message();
+                message.setKey(element.elementText("key"));
+                message.setZlass(element.elementText("class"));
+                messages.add(message);
+            }
         }
 
-        //3.获取根元素
-        Element root = doc.getRootElement();
-        List<Element> elements = root.elements();
-        for (Element element : elements) {
-            Message message = new Message();
-            message.setKey(element.elementText("key"));
-            message.setZlass(element.elementText("class"));
-            messages.add(message);
-        }
+        dom4jReadXml(doc);
+
     }
 
     private static void dom4jReadXml(Document doc) {

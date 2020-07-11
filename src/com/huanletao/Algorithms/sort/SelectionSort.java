@@ -1,4 +1,4 @@
-package com.huanletao.Algorithms;
+package com.huanletao.Algorithms.sort;
 
 /**
  * Created with IntelliJ IDEA.

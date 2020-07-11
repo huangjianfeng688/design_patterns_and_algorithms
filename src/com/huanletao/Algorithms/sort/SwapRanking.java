@@ -1,4 +1,4 @@
-package com.huanletao.Algorithms;
+package com.huanletao.Algorithms.sort;
 
 /**
  * Created with IntelliJ IDEA.
@@ -9,7 +9,13 @@ package com.huanletao.Algorithms;
  */
 public class SwapRanking {
 
-    //使用第三方变量，
+    /**
+     *     //使用第三方变量，
+     * @param arr
+     * @param frontIndex
+     * @param behindIndex
+     * @return
+     */
     public static int[] swapPositionByOther(int[] arr,int frontIndex,int behindIndex){
         //开始交换位置，
         int temp = arr[frontIndex];
@@ -19,7 +25,13 @@ public class SwapRanking {
         return arr;
     }
 
-    //不用第三方变量，使用加法。
+    /**
+     *     不用第三方变量，使用加法。
+     * @param arr
+     * @param frontIndex
+     * @param behindIndex
+     * @return
+     */
     public static int[] swapPositionByAddition(int[] arr,int frontIndex,int behindIndex){
         arr[frontIndex] = arr[behindIndex] - arr[frontIndex];
         arr[behindIndex] = arr[behindIndex] - arr[frontIndex];
@@ -27,7 +39,13 @@ public class SwapRanking {
         return arr;
     }
 
-    //不用第三方变量，使用乘法。
+    /**
+     *     //不用第三方变量，使用乘法。
+     * @param arr
+     * @param frontIndex
+     * @param behindIndex
+     * @return
+     */
     public static int[] swapPositionByMultiplication(int[] arr,int frontIndex,int behindIndex){
         arr[frontIndex] = arr[frontIndex] * arr[behindIndex];
         arr[behindIndex] = arr[frontIndex] / arr[behindIndex];
@@ -35,7 +53,9 @@ public class SwapRanking {
         return arr;
     }
 
-    //使用异或计算的方法，
+    /**
+     *     使用异或计算的方法，
+     */
     public static int[] swapPositionByXOR(int[] arr,int frontIndex,int behindIndex){
         arr[frontIndex] = arr[frontIndex] ^ arr[behindIndex];
         arr[behindIndex] = arr[frontIndex] ^ arr[behindIndex];

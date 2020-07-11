@@ -1,0 +1,20 @@
+IntelliJ IDEA 使用方法介绍。 高效开发代码。
+项目切换：crtl+alt+[
+最近修改文件：ctrl+shift+a recent files，change files;
+
+关于搜索
+搜索一个class：Ctrl+N
+搜索一个文件:Ctrl+shift+N
+搜索字符:Ctrl+shift+F
+
+
+关于操作。代码技巧
+创建文件:ctrl+alt+insert
+方法的抽取：Ctrl+Alt+M
+移动光标到行首/行尾:home,end。
+移动光标到前一个/后一个单词处，加Shift键，产生选中效果：Ctrl+Left/Right
+选择光标前面的内容：shift+home
+选择光标结束的内容：shift+end
+选中一个词：Ctrl+w
+
+代码编程风格：自顶而下。
