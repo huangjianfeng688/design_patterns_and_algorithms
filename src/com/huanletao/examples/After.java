@@ -1,6 +1,7 @@
 package com.huanletao.examples;
 
 import com.huanletao.examples.message.*;
+import org.dom4j.DocumentException;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -28,6 +29,7 @@ public class After {
         keys[2] = "hello";
 
         Map<String,Object> message = new HashMap();
+
 
         for (String key : keys) {
             System.out.println(gain.getMessage(key, message));

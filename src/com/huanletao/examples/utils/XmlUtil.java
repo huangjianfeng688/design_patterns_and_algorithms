@@ -23,15 +23,13 @@ public class XmlUtil {
     private static SAXReader reader;
     private static List<Message> messages = new ArrayList<>();
 
-    static {
-         reader = new SAXReader();
-        Document doc = null;
-        try {
-            doc = reader.read(XmlUtil.class.getClassLoader().getResourceAsStream("com/huanletao/examples/Message.xml"));
-        } catch (DocumentException e) {
-            e.printStackTrace();
-        }
+    public static List<Message> dom4jReadXml(String filePath) throws DocumentException {
+        reader = new SAXReader();
+        Document doc = reader.read(XmlUtil.class.
+                getClassLoader().getResourceAsStream(filePath));
+
         dom4jReadXml(doc,null);
+        return messages;
     }
 
     private static void dom4jReadXml(Document doc,Integer type) {
@@ -65,10 +63,6 @@ public class XmlUtil {
             messages.add(message);
         }
 
-    }
-
-    public static List<Message> getMessages() {
-        return messages;
     }
 }
 

@@ -26,21 +26,19 @@ public class BinarySortTree {
             if (node == null){
                 return;
             }else if (node.data > this.data){
-
-                if (this.right == null){
-                    this.right = node;
-                }else{
-                    this.right.add(node);
-                }
-
+                putdata(node,this.right);
             }else{
-                if (this.left == null){
-                    this.left = node;
-                }else{
-                    this.left.add(node);
-                }
+                putdata(node,left);
             }
 
+        }
+
+        private void putdata(Node node,Node fang) {
+            if (fang == null){
+                fang = node;
+            }else{
+                fang.add(node);
+            }
         }
 
         @Override

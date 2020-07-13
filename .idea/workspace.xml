@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baee31ac-7ef6-4545-8eb4-4a4b2e27dc89" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/huanletao/Algorithms/recursion/RecurTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huanletao/Algorithms/recursion/demo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huanletao/examples/GerenateObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huanletao/examples/demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huanletao/examples/message/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huanletao/examples/object.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPatternsAlgorithms/com/huanletao/Algorithms/dataStructure/BinarySortTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPatternsAlgorithms/com/huanletao/Algorithms/dataStructure/BinarySortTree$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPatternsAlgorithms/com/huanletao/examples/After.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPatternsAlgorithms/com/huanletao/examples/After.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPatternsAlgorithms/com/huanletao/examples/Gain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPatternsAlgorithms/com/huanletao/examples/Gain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPatternsAlgorithms/com/huanletao/examples/Message.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPatternsAlgorithms/com/huanletao/examples/Message.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPatternsAlgorithms/com/huanletao/examples/demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPatternsAlgorithms/com/huanletao/examples/demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPatternsAlgorithms/com/huanletao/examples/utils/XmlUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPatternsAlgorithms/com/huanletao/examples/utils/XmlUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/huanletao/Algorithms/dataStructure/BinarySortTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huanletao/Algorithms/dataStructure/BinarySortTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/huanletao/examples/After.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huanletao/examples/After.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/huanletao/examples/Gain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huanletao/examples/Gain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/huanletao/examples/Message.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huanletao/examples/Message.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/huanletao/examples/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huanletao/examples/demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/huanletao/examples/utils/XmlUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huanletao/examples/utils/XmlUtil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,55 +44,80 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="demo1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/huanletao/Algorithms/recursion/demo1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-              <folding>
-                <element signature="e#256#257#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/huanletao/Algorithms/recursion/demo3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RecurTemplate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/huanletao/Algorithms/recursion/RecurTemplate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="After.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/After.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+            <state relative-caret-position="300">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Message.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/Message.xml">
+      <file leaf-file-name="Gain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/Gain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            <state relative-caret-position="-560">
+              <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GerenateObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/GerenateObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="55" column="35" lean-forward="true" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+              <folding>
+                <element signature="e#1707#1708#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/message/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/demo2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="object.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/object.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XmlUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/utils/XmlUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1040">
+              <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -92,33 +131,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/Gain.java">
+      <file leaf-file-name="Message.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/Message.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IntelliJ IDEA 使用技巧" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/IntelliJ IDEA 使用技巧">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo2.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/huanletao/Algorithms/recursion/demo2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-              <folding>
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="200">
+              <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -135,17 +152,16 @@
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/huanletao/desiginPattern/Combination.java" />
-        <option value="$PROJECT_DIR$/src/com/huanletao/desiginPattern/Combination/Combination.java" />
-        <option value="$PROJECT_DIR$/src/com/huanletao/desiginPattern/Combination/main.java" />
-        <option value="$PROJECT_DIR$/src/com/huanletao/desiginPattern/Combination/Node.java" />
-        <option value="$PROJECT_DIR$/src/com/huanletao/desiginPattern/Observed/demo.java" />
-        <option value="$PROJECT_DIR$/src/com/huanletao/desiginPattern/Observed/main.java" />
-        <option value="$PROJECT_DIR$/src/com/huanletao/desiginPattern/chainResponsibility/Reabilty.java" />
         <option value="$PROJECT_DIR$/src/com/huanletao/desiginPattern/Reabilty.java" />
         <option value="$PROJECT_DIR$/src/com/huanletao/desiginPattern/Node.java" />
         <option value="$PROJECT_DIR$/src/com/huanletao/desiginPattern/main.java" />
@@ -170,26 +186,33 @@
         <option value="$PROJECT_DIR$/src/com/huanletao/examples/message/bglyMessage.java" />
         <option value="$PROJECT_DIR$/src/com/huanletao/examples/message/HelloMessage.java" />
         <option value="$PROJECT_DIR$/src/com/huanletao/examples/demo.xml" />
-        <option value="$PROJECT_DIR$/src/com/huanletao/examples/demo.java" />
-        <option value="$PROJECT_DIR$/src/com/huanletao/examples/Message.xml" />
-        <option value="$PROJECT_DIR$/src/com/huanletao/examples/After.java" />
         <option value="$PROJECT_DIR$/src/com/huanletao/examples/pojo/Message.java" />
         <option value="$PROJECT_DIR$/src/com/huanletao/examples/message/WdxcsMessage.java" />
         <option value="$PROJECT_DIR$/src/com/huanletao/examples/config" />
         <option value="$PROJECT_DIR$/src/com/huanletao/examples/IntelliJ IDEA 使用技巧" />
-        <option value="$PROJECT_DIR$/src/com/huanletao/Algorithms/dataStructure/BinarySortTree.java" />
         <option value="$PROJECT_DIR$/src/com/huanletao/Algorithms/sort/SwapRanking.java" />
         <option value="$PROJECT_DIR$/src/com/huanletao/Algorithms/dataStructure/Main.java" />
         <option value="$PROJECT_DIR$/src/com/huanletao/examples/utils/PropertUtil.java" />
         <option value="$PROJECT_DIR$/src/com/huanletao/Algorithms/dataStructure/LinkList.java" />
-        <option value="$PROJECT_DIR$/src/com/huanletao/examples/utils/XmlUtil.java" />
         <option value="$PROJECT_DIR$/src/com/huanletao/Algorithms/sort/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/com/huanletao/Algorithms/recursion/demo1.java" />
         <option value="$PROJECT_DIR$/src/com/huanletao/Algorithms/recursion/demo2.java" />
         <option value="$PROJECT_DIR$/src/com/huanletao/Algorithms/recursion/demo3.java" />
         <option value="$PROJECT_DIR$/src/com/huanletao/Algorithms/recursion/template.java" />
         <option value="$PROJECT_DIR$/src/com/huanletao/Algorithms/recursion/RecurTemplate.java" />
+        <option value="$PROJECT_DIR$/src/com/huanletao/Algorithms/recursion/demo4.java" />
+        <option value="$PROJECT_DIR$/src/com/huanletao/Algorithms/dataStructure/BinarySortTree.java" />
+        <option value="$PROJECT_DIR$/src/com/huanletao/examples/demo.java" />
+        <option value="$PROJECT_DIR$/src/com/huanletao/examples/After.java" />
+        <option value="$PROJECT_DIR$/src/com/huanletao/examples/message/Person.java" />
+        <option value="$PROJECT_DIR$/src/com/huanletao/examples/Message.xml" />
+        <option value="$PROJECT_DIR$/src/com/huanletao/examples/person.xml" />
+        <option value="$PROJECT_DIR$/src/com/huanletao/examples/utils/XmlUtil.java" />
         <option value="$PROJECT_DIR$/src/com/huanletao/examples/Gain.java" />
+        <option value="$PROJECT_DIR$/src/com/huanletao/examples/Gain2.java" />
+        <option value="$PROJECT_DIR$/src/com/huanletao/examples/GerenateClass.java" />
+        <option value="$PROJECT_DIR$/src/com/huanletao/examples/GerenateObject.java" />
+        <option value="$PROJECT_DIR$/src/com/huanletao/examples/demo2.java" />
       </list>
     </option>
   </component>
@@ -252,7 +275,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="huanletao" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designPatternsAlgorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -261,6 +284,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="huanletao" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -288,6 +312,9 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.huanletao.examples" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\projects\designPatternsAlgorithms\src" />
       <recent name="E:\projects\designPatternsAlgorithms\src\com\huanletao\Algorithms" />
@@ -306,7 +333,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.demo4">
+  <component name="RunManager" selected="Application.demo2 (1)">
     <configuration name="After" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.huanletao.examples.After" />
       <module name="designPatternsAlgorithms" />
@@ -318,27 +345,27 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Reabilty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huanletao.desiginPattern.Reabilty" />
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huanletao.examples.demo" />
       <module name="designPatternsAlgorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huanletao.desiginPattern.*" />
+          <option name="PATTERN" value="com.huanletao.examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huanletao.Algorithms.recursion.demo1" />
+    <configuration name="demo2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huanletao.examples.demo2" />
       <module name="designPatternsAlgorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huanletao.Algorithms.recursion.*" />
+          <option name="PATTERN" value="com.huanletao.examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -404,19 +431,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Reabilty" />
       <item itemvalue="Application.After" />
-      <item itemvalue="Application.demo1" />
       <item itemvalue="Application.demo2" />
       <item itemvalue="Application.demo4" />
+      <item itemvalue="Application.demo" />
+      <item itemvalue="Application.demo2 (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.demo4" />
+        <item itemvalue="Application.demo2 (1)" />
         <item itemvalue="Application.After" />
+        <item itemvalue="Application.demo" />
+        <item itemvalue="Application.demo4" />
         <item itemvalue="Application.demo2" />
-        <item itemvalue="Application.demo1" />
-        <item itemvalue="Application.Reabilty" />
       </list>
     </recent_temporary>
   </component>
@@ -435,12 +462,20 @@
       <workItem from="1594392415051" duration="6180000" />
       <workItem from="1594435997795" duration="11109000" />
       <workItem from="1594461336020" duration="3055000" />
-      <workItem from="1594602280265" duration="2376000" />
+      <workItem from="1594602280265" duration="7816000" />
     </task>
+    <task id="LOCAL-00001" summary="递归算法模板，测试用例">
+      <created>1594620544283</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594620544283</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39633000" />
+    <option name="totallyTimeSpent" value="45073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -465,8 +500,8 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25783476" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23076923" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32905984" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19906166" />
       <window_info id="JRebel" order="2" side_tool="true" />
@@ -487,6 +522,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="递归算法模板，测试用例" />
+    <option name="LAST_COMMIT_MESSAGE" value="递归算法模板，测试用例" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
@@ -496,41 +535,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/huanletao/desiginPattern/Reabilty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huanletao/desiginPattern/ObserverMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/before.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huanletao/Algorithms/sort/demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huanletao/desiginPattern/EagerSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/After.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
@@ -600,13 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/dom4j/dom4j/1.5/dom4j-1.5.jar!/org/dom4j/tree/AbstractNode.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
@@ -668,34 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huanletao/Algorithms/dataStructure/BinarySortTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/utils/PropertUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huanletao/Algorithms/dataStructure/LinkList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/utils/XmlUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -798,41 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huanletao/Algorithms/recursion/RecurTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/After.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/Message.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/demo.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/Gain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/IntelliJ IDEA 使用技巧">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -847,6 +781,121 @@
           <folding>
             <element signature="e#266#267#0" expanded="true" />
             <element signature="e#314#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huanletao/Algorithms/recursion/demo4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huanletao/Algorithms/recursion/RecurTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huanletao/Algorithms/dataStructure/LinkList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huanletao/Algorithms/dataStructure/BinarySortTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/utils/PropertUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/After.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/message/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/Message.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/demo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/utils/XmlUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1040">
+          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/Gain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-560">
+          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/object.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/GerenateObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="55" column="35" lean-forward="true" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+          <folding>
+            <element signature="e#1707#1708#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huanletao/examples/demo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

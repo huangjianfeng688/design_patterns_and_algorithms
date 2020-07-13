@@ -17,16 +17,18 @@ import java.util.List;
  * Description: dom4j 读取read/[创建写入]create，write xml 文件。
  */
 public class demo {
+    private static SAXReader reader = new SAXReader();
     public static void main(String[] args) throws DocumentException {
-        SAXReader reader = new SAXReader();
-        //读取文件流。
-        Document doc = reader.read(demo.class.getClassLoader()
-                .getResourceAsStream("com/huanletao/examples/demo.xml"));
-        dom4jReadXml(doc);
+        String filePath = "com/huanletao/examples/demo.xml";
+
+        dom4jReadXml(filePath);
 
     }
 
-    private static void dom4jReadXml(Document doc) {
+    private static void dom4jReadXml(String filePath) throws DocumentException {
+        //读取文件流。
+        Document doc = reader.read(demo.class.getClassLoader()
+                .getResourceAsStream(filePath));
         //获取根节点。
         Element root = doc.getRootElement();
 

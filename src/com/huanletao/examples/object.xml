@@ -1,0 +1,5 @@
+<!--配置文件配置对应添加的key和class的值。-->
+<messages>
+    <message key="person" class="Person"></message>
+    <message key="student" class="Student"></message>
+</messages>
