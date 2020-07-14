@@ -5,5 +5,4 @@
     <message key="gys" class="gysMessage"></message>
     <message key="contract_year" class="contractYearMessage"></message>
     <message key="hello" class="HelloMessage"></message>
-    <message key="person" class="Person"></message>
 </messages>

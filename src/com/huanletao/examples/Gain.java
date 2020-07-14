@@ -36,7 +36,7 @@ public class Gain{
     public void read() throws DocumentException {
 
 
-        List<Message> messages = XmlUtil.dom4jReadXml(filePath);
+        List<Message> messages = XmlUtil.dom4jLoadXml(filePath);
         for (Message message : messages) {
             String zlass = message.getZlass();
             zlass = "com.huanletao.examples.message." + zlass;

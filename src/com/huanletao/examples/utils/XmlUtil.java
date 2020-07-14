@@ -23,7 +23,7 @@ public class XmlUtil {
     private static SAXReader reader;
     private static List<Message> messages = new ArrayList<>();
 
-    public static List<Message> dom4jReadXml(String filePath) throws DocumentException {
+    public static List<Message> dom4jLoadXml(String filePath) throws DocumentException {
         reader = new SAXReader();
         Document doc = reader.read(XmlUtil.class.
                 getClassLoader().getResourceAsStream(filePath));

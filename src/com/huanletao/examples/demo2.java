@@ -2,10 +2,9 @@ package com.huanletao.examples;
 
 import com.huanletao.examples.message.Person;
 import com.huanletao.examples.message.Student;
-import com.huanletao.examples.utils.XmlUtil;
-import org.dom4j.DocumentException;
 
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Created with IntelliJ IDEA.
@@ -24,6 +23,11 @@ public class demo2 {
         GerenateObject<Student> studentGerenateObject = new GerenateObject<>();
         Student student = studentGerenateObject.getObject("student");
         System.out.println(student);
+        System.out.println("hello world");
         System.out.println("person = " + person);
+
+        Map<String,String> map = new HashMap<>();
+        map.entrySet().iterator();
+
     }
 }

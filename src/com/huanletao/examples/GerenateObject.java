@@ -15,7 +15,7 @@ import java.util.Map;
  * @auther: huangjianfeng
  * @Date: 2020/7/10
  * @Time: 16:18
- * Description: 根据读取配置文件，生成任意的对象。
+ * Description: 根据读取配置文件，生成任意的对象。(工厂模式。)
  */
 public class GerenateObject<T> {
 
@@ -34,7 +34,7 @@ public class GerenateObject<T> {
     public void read() throws DocumentException {
 
 
-        List<Message> messages = XmlUtil.dom4jReadXml(filePath);
+        List<Message> messages = XmlUtil.dom4jLoadXml(filePath);
         for (Message message : messages) {
             String zlass = message.getZlass();
             zlass = "com.huanletao.examples.message." + zlass;
