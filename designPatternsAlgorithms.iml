@@ -8,5 +8,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="dom4j:dom4j:1.5" level="project" />
+    <orderEntry type="library" exported="" name="com.github.darrachequesne:spring-data-jpa-datatables:2.2" level="project" />
   </component>
 </module>

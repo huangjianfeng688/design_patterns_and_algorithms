@@ -5,6 +5,7 @@ import com.huanletao.examples.utils.XmlUtil;
 import org.dom4j.DocumentException;
 
 import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -32,8 +33,6 @@ public class GerenateObject<T> {
     }
 
     public void read() throws DocumentException {
-
-
         List<Message> messages = XmlUtil.dom4jLoadXml(filePath);
         for (Message message : messages) {
             String zlass = message.getZlass();
@@ -43,6 +42,14 @@ public class GerenateObject<T> {
                 Class<?> aClass = GerenateObject.class.getClassLoader().loadClass(zlass);
                 Constructor constructor = aClass.getDeclaredConstructor();
                 constructor.setAccessible(true);
+
+                Field[] fields = aClass.getDeclaredFields();
+                for (Field field : fields) {
+                    String name = field.getName();
+                    System.out.println("name = " + name);
+                }
+
+
                 iMessageContainer = (T) constructor.newInstance();
 
             } catch (Exception e) {
