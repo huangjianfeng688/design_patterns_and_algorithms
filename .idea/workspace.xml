@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baee31ac-7ef6-4545-8eb4-4a4b2e27dc89" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/excel读写jar包（POI）/commons-codec-1.9(1).jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/excel读写jar包（POI）/commons-codec-1.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/excel读写jar包（POI）/commons-logging-1.1.3(1).jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/excel读写jar包（POI）/commons-logging-1.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/excel读写jar包（POI）/junit-4.11(1).jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/excel读写jar包（POI）/junit-4.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/excel读写jar包（POI）/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/excel读写jar包（POI）/poi-3.11-20141221.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/excel读写jar包（POI）/poi-examples-3.11-20141221.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/excel读写jar包（POI）/poi-excelant-3.11-20141221.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/excel读写jar包（POI）/poi-ooxml-3.11-20141221.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/excel读写jar包（POI）/poi-ooxml-schemas-3.11-20141221.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/excel读写jar包（POI）/poi-scratchpad-3.11-20141221.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/excel读写jar包（POI）/xmlbeans-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huanletao/other/ExcelUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huanletao/other/demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPatternsAlgorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/designPatternsAlgorithms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/huanletao/other/CertNoUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huanletao/other/CertNoUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/huanletao/other/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huanletao/other/ExcelUtil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,8 +32,8 @@
       <file leaf-file-name="ExcelUtil.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/huanletao/other/ExcelUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+            <state relative-caret-position="217">
+              <caret line="53" column="45" lean-forward="true" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#readTxt#0;class#ExcelUtil#0" />
@@ -413,7 +396,7 @@
       <workItem from="1594958247873" duration="2916000" />
       <workItem from="1594985379161" duration="15000" />
       <workItem from="1594998279541" duration="1614000" />
-      <workItem from="1595048555508" duration="10472000" />
+      <workItem from="1595048555508" duration="11583000" />
     </task>
     <task id="LOCAL-00001" summary="递归算法模板，测试用例">
       <created>1594620544283</created>
@@ -450,14 +433,22 @@
       <option name="project" value="LOCAL" />
       <updated>1594998524668</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="33">
+      <created>1595066203765</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595066203765</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95399000" />
+    <option name="totallyTimeSpent" value="96510000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -478,11 +469,11 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15669516" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21509972" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32905984" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21782842" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21782842" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="3" />
@@ -508,7 +499,8 @@
     <MESSAGE value="ll" />
     <MESSAGE value="javabean 生成工具类" />
     <MESSAGE value="11" />
-    <option name="LAST_COMMIT_MESSAGE" value="11" />
+    <MESSAGE value="33" />
+    <option name="LAST_COMMIT_MESSAGE" value="33" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -885,8 +877,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/huanletao/other/ExcelUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        <state relative-caret-position="217">
+          <caret line="53" column="45" lean-forward="true" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#readTxt#0;class#ExcelUtil#0" />

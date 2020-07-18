@@ -26,36 +26,38 @@ public class ExcelUtil {
     public static void main(String[] args) {
         File read = new File("D:famerCardId.txt");
 
-        File write = new File("D:famerCardId.xlsx");
+        File write = new File("D:demo.xlsx");
         //将数据读出来，指定多少条数据。
-        List<String> content = readTxt(read,30,"no");
+        List<String> content = readTxt(read,10000,"no");
 
         //写入excel。传入内容，指定第几列。
-        int success = writeExcel(content,3,write);
+        int success = writeExcel(content,2,write);
 
         if (success != 0) System.out.println("数据写入成功");
     }
 
     //将数据写入excel。
     private static int writeExcel(List<String> content, int n,File file) {
-
+        FileInputStream in = null;
         Workbook Newworkbook = null;
-      // 创建一个工作簿
-        Newworkbook = new XSSFWorkbook();
-        Sheet sheet = Newworkbook.createSheet("new sheet");
-        for (int row = 1; row < content.size(); row++) {
-            Row sheetRow = sheet.createRow(row);
-            Cell cell = sheetRow.createCell(n);
-            cell.setCellValue(content.get(row));
-        }
         OutputStream out = null;
+        // 创建一个工作簿
         try {
+           in = new FileInputStream(file);
+            Newworkbook = new XSSFWorkbook(in);
+            Sheet sheet = Newworkbook.getSheetAt(0);
+            for (int row = 1; row < content.size(); row++) {
+                Row sheetRow = sheet.createRow(row);
+                Cell cell = sheetRow.createCell(n-1);
+                cell.setCellValue(content.get(row));
+            }
             out = new FileOutputStream(file);
             Newworkbook.write(out);
         } catch (Exception e) {
             e.printStackTrace();
         }finally {
             try {
+                in.close();
                 out.close();
                 Newworkbook.close();
             } catch (IOException e) {
