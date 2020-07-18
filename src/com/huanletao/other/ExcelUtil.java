@@ -1,13 +1,9 @@
 package com.huanletao.other;
 
-import org.apache.poi.poifs.filesystem.POIFSFileSystem;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.xssf.usermodel.XSSFCell;
-import org.apache.poi.xssf.usermodel.XSSFRow;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.*;
@@ -23,21 +19,14 @@ import java.util.List;
  * Description: 将生成的txt 文件内容写入到excel中。
  */
 public class ExcelUtil {
-    public static void main(String[] args) {
-        File read = new File("D:famerCardId.txt");
-
-        File write = new File("D:demo.xlsx");
-        //将数据读出来，指定多少条数据。
-        List<String> content = readTxt(read,10000,"no");
-
-        //写入excel。传入内容，指定第几列。
-        int success = writeExcel(content,2,write);
-
-        if (success != 0) System.out.println("数据写入成功");
-    }
-
-    //将数据写入excel。
-    private static int writeExcel(List<String> content, int n,File file) {
+    /**
+     *    write data for excel
+     * @param content data
+     * @param n   row number of data
+     * @param file file object
+     * @return
+     */
+    public static int writeExcel(List<String> content, int n,File file) {
         FileInputStream in = null;
         Workbook Newworkbook = null;
         OutputStream out = null;
@@ -55,6 +44,7 @@ public class ExcelUtil {
             Newworkbook.write(out);
         } catch (Exception e) {
             e.printStackTrace();
+            return 0;
         }finally {
             try {
                 in.close();
@@ -68,8 +58,14 @@ public class ExcelUtil {
         return 1;
     }
 
-    //将famerCardId.txt 文件中部分数据读出来。
-    private static List<String> readTxt(File file, int i,String columnName) {
+    /**
+     *  read content of text file
+     * @param file file object
+     * @param i  row number of data
+     * @param columnName column name of table
+     * @return
+     */
+    public static List<String> readTxt(File file, int i,String columnName) {
         List<String> content = new ArrayList<>();
         Reader reader = null;
         BufferedReader breader = null;
@@ -98,7 +94,12 @@ public class ExcelUtil {
         return content;
     }
 
-    //解析字符串。
+    /**
+     *   parser of string
+     * @param s  string
+     * @param cloumName parser of cloumn name
+     * @return 返回解析后的字符串。
+     */
     private static String parer(String s, String cloumName) {
 
         if (cloumName.equals("id")){
@@ -108,8 +109,17 @@ public class ExcelUtil {
             String substring = s.substring(s.indexOf(",")+1);
             String newStr = substring.substring(0, substring.indexOf(","));
             return newStr.trim();
+        }else if (cloumName.equals("")){
+
         }
 
         return "";
     }
+
+    public static class Builder{
+        public ExcelUtil build(){
+            return new ExcelUtil();
+        }
+    }
+
 }
