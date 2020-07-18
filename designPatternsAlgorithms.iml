@@ -9,5 +9,15 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="dom4j:dom4j:1.5" level="project" />
     <orderEntry type="library" exported="" name="com.github.darrachequesne:spring-data-jpa-datatables:2.2" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/lib/excel读写jar包（POI）" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/lib/excel读写jar包（POI）" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>

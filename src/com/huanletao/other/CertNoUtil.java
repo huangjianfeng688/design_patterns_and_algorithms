@@ -66,7 +66,6 @@ public class CertNoUtil {
         writer.newLine();
         for(int i=0;i<=350000;i++) {
             String ID=getRandomID() ;
-
             start=+i;
            writer.write(start+","+"令狐冲"+start+",那坡县,18612312123,"+ID+",705");
            writer.newLine();
