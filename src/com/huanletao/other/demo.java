@@ -19,16 +19,31 @@ public class demo {
     public static void main(String[] args) {
 
         File read = new File("D:famerCardId.txt");
+        File read1 = new File("D:demo.txt");
         File write = new File("D:demo.xlsx");
 
+        List<String> strings = ExcelUtil.readTxt(read, 10000,"no");
+        List<String> names = ExcelUtil.readTxt(read1, 10000,"name");
+        List<String> yinhang = ExcelUtil.readTxt(read1, 10000,"name");
 
-        //将数据读出来，指定多少条数据。
-            List<String> content = readTxt(read,10000,"no");
 
-            //写入excel。传入内容，指定第几列。
-            int success = writeExcel(content,2,write);
 
-            if (success != 0) System.out.println("数据写入成功");
+        //ExcelUtil.writeExcel(names,1,write);
+        ExcelUtil.writeExcel(strings,names,2,write);
+
+        System.out.println("写入完毕");
+
+
+
+//
+//        //将数据读出来，指定多少条数据。
+//            List<String> Nocontent = readTxt(read,10000,"no");
+//            List<String> Namecontent = readTxt(read,10000,"name");
+//
+//            //写入excel。传入内容，指定第几列。
+//            int success = writeExcel(Nocontent,2,write);
+//
+//            if (success != 0) System.out.println("数据写入成功");
 
     }
 

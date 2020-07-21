@@ -26,7 +26,7 @@ public class ExcelUtil {
      * @param file file object
      * @return
      */
-    public static int writeExcel(List<String> content, int n,File file) {
+    public static int writeExcel(List<String> content,List<String> names, int n,File file) {
         FileInputStream in = null;
         Workbook Newworkbook = null;
         OutputStream out = null;
@@ -35,10 +35,22 @@ public class ExcelUtil {
            in = new FileInputStream(file);
             Newworkbook = new XSSFWorkbook(in);
             Sheet sheet = Newworkbook.getSheetAt(0);
-            for (int row = 1; row < content.size(); row++) {
-                Row sheetRow = sheet.createRow(row);
-                Cell cell = sheetRow.createCell(n-1);
-                cell.setCellValue(content.get(row));
+            for (int row = 0; row < content.size(); row++) {
+                Row sheetRow = sheet.createRow(row+1);
+
+                for (int i = 0; i < 8; i++) {
+                    Cell cell = sheetRow.createCell(i);
+                    if (i==0&&!"name".equals(names.get(row))){
+                        cell.setCellValue(names.get(row));
+                    }else if (i==1&&!"id".equals(content.get(row))){
+                        cell.setCellValue(content.get(row));
+                    }else if (i == 3){
+                        cell.setCellValue("402626700011");
+                    }else if (i == 5) {
+                        cell.setCellValue(0.3);
+                    }
+                }
+
             }
             out = new FileOutputStream(file);
             Newworkbook.write(out);
@@ -74,7 +86,7 @@ public class ExcelUtil {
 
              breader= new BufferedReader(reader);
 
-            for (int j = 0; j < i; j++) {
+            for (int j = 0; j < i+1; j++) {
                 String line = breader.readLine();
                 String newstr = parer(line,columnName);
                 content.add(newstr);
@@ -109,8 +121,10 @@ public class ExcelUtil {
             String substring = s.substring(s.indexOf(",")+1);
             String newStr = substring.substring(0, substring.indexOf(","));
             return newStr.trim();
-        }else if (cloumName.equals("")){
-
+        }else if (cloumName.equals("name")){
+            String substring = s.substring(s.indexOf(",")+1);
+            String newStr = substring.substring(0, substring.indexOf(","));
+            return newStr.trim();
         }
 
         return "";
