@@ -46,7 +46,6 @@ public class Gain{
                 Constructor constructor = aClass.getDeclaredConstructor();
                 constructor.setAccessible(true);
                 iMessageContainer = (IMessageContainer) constructor.newInstance();
-
             } catch (Exception e) {
                 e.printStackTrace();
             }

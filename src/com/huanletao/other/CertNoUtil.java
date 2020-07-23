@@ -51,11 +51,15 @@ public class CertNoUtil {
         String check = checks[new Random().nextInt(checks.length - 1)];
         // 拼接身份证号码
         id = province + city + county + birth + no + check;
-
         return id;
     }
     public static void main(String[] args) throws IOException {
+        String randomID = getRandomID();
+        System.out.println(randomID);
 
+    }
+
+    private static void test() throws IOException {
         File file = new File("D:/demo.txt");
 
         Integer start = 12;

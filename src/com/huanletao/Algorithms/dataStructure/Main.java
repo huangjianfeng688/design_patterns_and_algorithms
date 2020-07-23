@@ -10,6 +10,7 @@ package com.huanletao.Algorithms.dataStructure;
  */
 public class Main {
     public static void main(String[] args) {
+        BinarySortTree sortTree = new BinarySortTree();
 
     }
 }
