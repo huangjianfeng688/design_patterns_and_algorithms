@@ -16,5 +16,7 @@ IntelliJ IDEA 使用方法介绍。 高效开发代码。
 选择光标前面的内容：shift+home
 选择光标结束的内容：shift+end
 选中一个词：Ctrl+w
+列操作：ctrl+shift+alt+j
+
 
 代码编程风格：自顶而下。
