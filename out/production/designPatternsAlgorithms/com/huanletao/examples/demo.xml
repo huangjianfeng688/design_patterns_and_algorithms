@@ -1,8 +1,0 @@
-<list>
-    <user>
-        <name>张三</name>
-        <age>13</age>
-        <addr>广西南宁市</addr>
-    </user>
-    <student name="李四" age="24" addr="广东深圳"></student>
-</list>

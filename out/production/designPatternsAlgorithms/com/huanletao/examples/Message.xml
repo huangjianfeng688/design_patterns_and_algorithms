@@ -1,8 +1,0 @@
-<!--配置文件配置对应添加的key和class的值。-->
-<messages>
-    <message key="gzbx" class="gzbxMessage"></message>
-    <message key="bgly" class="bglyMessage"></message>
-    <message key="gys" class="gysMessage"></message>
-    <message key="contract_year" class="contractYearMessage"></message>
-    <message key="hello" class="HelloMessage"></message>
-</messages>
